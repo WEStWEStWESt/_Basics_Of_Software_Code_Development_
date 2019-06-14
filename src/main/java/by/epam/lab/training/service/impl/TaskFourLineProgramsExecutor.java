@@ -13,9 +13,9 @@ public class TaskFourLineProgramsExecutor implements LineProgramsExecutor {
 
         String result = Double.toString(RandomUtil.generateFloatPointNumber());
         Pattern pattern = Pattern.compile("[\\d]{3}");
-        Matcher matcher = pattern.matcher(result);
+        //Matcher matcher = pattern.matcher(result);
 
-        return "+++ " + result + " +++";
+        return "++ " + result + " ++";
     }
 
     @Override
